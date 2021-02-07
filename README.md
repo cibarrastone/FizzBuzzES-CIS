@@ -8,4 +8,4 @@ The project structure consists of the following projects: <br />
   &ensp;&ensp;--SuperFizzBuzz.cs (Extension of FizzBuzz base class with enriched functionality) <br />
 -FizzBuzzES-CIS.csproj (Contains only the console program for the challenge requirements, rely on the FizzBussLib project) <br />
 -SuperFizzBuzzES-CIS.csproj (Contains only the console program for the challenge requirements, rely on the FizzBussLib project) <br />
--FizzBuzzTests.csproj (Nunit project for FizzBuzzLib coverage) <br />
+-FizzBuzzTests.csproj (Nunit project for FizzBuzzLib coverage, to test this project i use ReSharper tools, if is not available then NUnit Test Runner NuGet package might be needed to execute the coverage tests) <br />
