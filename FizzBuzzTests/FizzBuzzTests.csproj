@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FizzBussLib\FizzBussLib.csproj" />
+    <ProjectReference Include="..\FizzBussLib\FizzBuzzLib.csproj" />
   </ItemGroup>
 
 </Project>

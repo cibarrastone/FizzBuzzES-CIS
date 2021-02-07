@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzES-CIS", "FizzBuzzES-CIS\FizzBuzzES-CIS.csproj", "{FDB6F08C-6428-4534-A50F-24BEFD522601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBussLib", "FizzBussLib\FizzBussLib.csproj", "{08CA7B78-B8F3-4299-B36F-D6F683A42EC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLib", "FizzBussLib\FizzBuzzLib.csproj", "{08CA7B78-B8F3-4299-B36F-D6F683A42EC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperFizzBuzzES-CIS", "SuperFizzBuzzES-CIS\SuperFizzBuzzES-CIS.csproj", "{6E0943F2-A000-41F7-80B8-DEFA0654A648}"
 EndProject
