@@ -6,4 +6,8 @@
     <RootNamespace>FizzBuzzES_CIS</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FizzBussLib\FizzBussLib.csproj" />
+  </ItemGroup>
+
 </Project>
