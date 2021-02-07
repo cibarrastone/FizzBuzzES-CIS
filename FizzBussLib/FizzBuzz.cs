@@ -8,7 +8,7 @@ namespace FizzBussLib
     public class FizzBuzz : IFizzBuzz
     {
         // ReSharper disable once FieldCanBeMadeReadOnly.Local
-        private Dictionary<string, Predicate<int>> _evaluationDictionary;
+        protected Dictionary<string, Predicate<int>> _evaluationDictionary;
 
         public FizzBuzz()
         {
@@ -26,6 +26,8 @@ namespace FizzBussLib
 
         public List<Tuple<int, string>> GetRangeTokens(int start, int end)
         {
+            if (end < start)
+                throw new InvalidOperationException("The range established is invalid for the program to execute");
             var resTuples = new List<Tuple<int, string>>();
             for (var i = start; i <= end; i++)
             {
