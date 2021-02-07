@@ -1,5 +1,6 @@
 # FizzBuzzES-CIS
 A quick take on approach for Headspring technical challenge <br /> 
+The IDE used to create the base .net core solutions was Visual Studio 2019 <br /> 
 The project structure consists of the following projects: <br />
 -FizzBussLib.csproj (Contains the libraries FizzBuzz and SuperFizzBuzz related functions) <br />
   &ensp;&ensp;--Interface (Interface contracts for the challenge requierements) <br />
